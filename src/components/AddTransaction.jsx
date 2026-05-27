@@ -47,7 +47,7 @@ export default function AddTransaction({
 
         <input
           type="number"
-          placeholder="Add Ammount (add minus-sign for spending)"
+          placeholder="Ammount (add minus-sign for spending)"
           value={amount}
           onChange={(e) =>
             setAmount(e.target.value)
