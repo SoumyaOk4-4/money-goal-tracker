@@ -126,16 +126,16 @@ export default function App() {
           transactions={transactions}
         />
 
+        <TransactionList
+          transactions={transactions}
+          deleteTransaction={deleteTransaction}
+        />
+
         <Backup
           transactions={transactions}
           goal={goal}
           setTransactions={setTransactions}
           setGoal={setGoal}
-        />
-
-        <TransactionList
-          transactions={transactions}
-          deleteTransaction={deleteTransaction}
         />
 
         <div className="text-center text-sm opacity-50 py-6">
